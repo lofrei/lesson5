@@ -3,7 +3,7 @@ import java.util.*;
 public class ReverseList {
     public static void main(String[] args) {
         List<String> namelist = new ArrayList<>();
-        System.out.println("Please enter names, enter blank line to stop: ");
+        System.out.println("Please enter names, enter empty line to stop: ");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         while (!name.equals("")) {
